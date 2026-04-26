@@ -1,0 +1,31 @@
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Local WeChat app copies and patched test bundles
+*.app/
+*.app.norecall.*.bak
+*.norecall.*.bak
+
+# Build products
+*.o
+!NoRecall.o
+*.dylib
+*.dSYM/
+NoRecall.dylib
+
+# Logs and debug captures
+*.log
+no_recall.log
+miniprogram_debug.log
+miniprogram_debug.pid
+
+# Temporary/generated helper scripts from experiments
+patch_wechat_nodeep.sh
+
+# Local tool/editor state
+.codex/
+.vscode/
+.idea/
